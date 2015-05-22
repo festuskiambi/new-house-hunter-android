@@ -10,6 +10,13 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
 
     <application
         android:name="com.parse.starter.ParseApplication"
@@ -28,9 +35,44 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parse.starter.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parse.starter.AppInfoActivity"
+            android:label="@string/title_activity_app_info" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.UserHouSearchActivity"
+            android:label="@string/title_activity_user_hou_search" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.SignupActvity"
+            android:label="@string/title_activity_signup_actvity" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.AllListingActivity"
+            android:label="@string/title_activity_all_listing" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.ListingDetailsActivity"
+            android:label="@string/title_activity_listing_details" >
         </activity>
     </application>
 
