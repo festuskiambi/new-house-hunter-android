@@ -5,4 +5,15 @@
 
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
     <string name="app_name">ParseStarterProject</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_app_info">AppInfoActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_user_hou_search">UserHouSearchActivity</string>
+    <string name="title_activity_signup_actvity">SignupActvity</string>
+    <string name="title_activity_all_listing">AllListingActivity</string>
+    <string name="title_activity_listing_details">ListingDetailsActivity</string>
 </resources>
