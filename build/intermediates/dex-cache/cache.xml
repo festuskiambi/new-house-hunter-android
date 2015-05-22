@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/libs/ParseCrashReporting-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="83f3b1e397f1cc3f05cb9db078d9e364b5f5e218">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.2-60133118bc77ed2775e7935f376cb208170aad07.jar" />
+    </item>
+    <item
+        jar="/home/festus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-7f433c0ef83f5598cfbbfc0d46edf7758c2fcaaa.jar" />
+    </item>
+    <item
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/libs/Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.2-3fb44f11a94a59025f89c6cc928bfc3740b42269.jar" />
+    </item>
+
+</items>
