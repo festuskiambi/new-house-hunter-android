@@ -16,4 +16,7 @@
     <string name="title_activity_signup_actvity">SignupActvity</string>
     <string name="title_activity_all_listing">AllListingActivity</string>
     <string name="title_activity_listing_details">ListingDetailsActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

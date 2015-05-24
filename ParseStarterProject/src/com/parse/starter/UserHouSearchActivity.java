@@ -1,17 +1,29 @@
 package com.parse.starter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class UserHouSearchActivity extends Activity {
-
+    Button submit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_hou_search);
+        submit=(Button)findViewById(R.id.button);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent inte = new Intent(UserHouSearchActivity.this, AllListingActivity.class);
+                startActivity(inte);
+                finish();
+            }
+        });
     }
 
     @Override

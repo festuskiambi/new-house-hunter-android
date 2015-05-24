@@ -11,17 +11,27 @@ import android.widget.Button;
 
 public class LoginActivity extends Activity {
     Button login;
-
+    Button signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         login=(Button)findViewById(R.id.send);
-
+        signup = (Button)findViewById(R.id.signup);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(LoginActivity.this, UserHouSearchActivity.class);
+                startActivity(i);
+
+                // close this activity
+                finish();
+            }
+        });
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(LoginActivity.this, SignupActvity.class);
                 startActivity(i);
 
                 // close this activity

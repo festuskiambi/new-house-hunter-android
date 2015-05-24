@@ -1,18 +1,33 @@
 package com.parse.starter;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
+    com.parse.starter.AllListingFragment fragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+        /*fragment = new com.parse.starter.AllListingFragment();
+        if (savedInstanceState ==null) {
+            getFragmentManager().beginTransaction().add(R.id.container, fragment).commit();
+        }*/
+
+        /*if (savedInstanceState == null) {
+            getFragmentManager().beginTransaction()
+                    .add(R.id.container, fragment)
+                    .commit();
+        }*/
+
+
+}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
