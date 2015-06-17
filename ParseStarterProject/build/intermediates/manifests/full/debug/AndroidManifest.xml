@@ -61,7 +61,10 @@
         </activity>
         <activity
             android:name="com.parse.starter.UserHouSearchActivity"
-            android:label="@string/title_activity_user_hou_search" >
+            android:label="@string/title_activity_user_hou_search"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
             android:name="com.parse.starter.SignupActvity"
@@ -74,6 +77,10 @@
         <activity
             android:name="com.parse.starter.ListingDetailsActivity"
             android:label="@string/title_activity_listing_details" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.WhyUs"
+            android:label="@string/title_activity_why_us" >
         </activity>
         <activity
             android:name="android.support.v7.widget.TestActivity"

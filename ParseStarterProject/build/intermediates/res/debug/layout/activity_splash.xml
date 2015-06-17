@@ -4,29 +4,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="@drawable/building1"
+    android:background="#f70ceeee"
     tools:context="com.parse.starter.SplashActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="House Hunter"
-        android:id="@+id/textView"
-        android:textColor="#ffffff"
+        android:text="HouseHunter"
+        android:id="@+id/textView8"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Welcome to the future of house hunting"
-        android:id="@+id/textView2"
-        android:textColor="#ffffff"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
-
-</RelativeLayout>
-<!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/res/layout/activity_splash.xml -->
+        android:layout_centerHorizontal="true"
+        android:textColor="#fa190a28" />
+</RelativeLayout><!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/res/layout/activity_splash.xml -->

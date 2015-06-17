@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true">
 
-        <!--<Button
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Why HouseHunter"
@@ -31,7 +31,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:textColor="#f7fffbf6" />-->
+            android:textColor="#ff000000" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:text="Sign Up"
             android:background="#f797ee50"
-            android:textColor="#f7fffbf6"
+            android:textColor="#ff000000"
             android:id="@+id/signup"
             android:layout_gravity="center_horizontal"
             android:layout_centerVertical="true"
@@ -93,7 +93,7 @@
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:text="Login"
-                android:textColor="#f7fffbf6"
+                android:textColor="#ff000000"
                 android:background="#f797ee50"
                 android:layout_weight="5"
                 android:layout_marginRight="20dp"
@@ -105,7 +105,7 @@
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:text="Sign Up Later"
-                android:textColor="#f7fffbf6"
+                android:textColor="#ff000000"
                 android:layout_weight="5"
                 android:background="#f797ee50"
                 android:id="@+id/sugnuplater"

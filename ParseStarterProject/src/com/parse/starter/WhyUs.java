@@ -1,17 +1,32 @@
 package com.parse.starter;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class WhyUs extends ActionBarActivity {
+    Button ok;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_why_us);
+        ok = (Button)findViewById(R.id.ok);
+        ok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(WhyUs.this, AppInfoActivity.class);
+                startActivity(i);
+
+                // close this activity
+                finish();
+            }
+        });
     }
 
     @Override

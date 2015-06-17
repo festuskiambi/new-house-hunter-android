@@ -221,6 +221,7 @@
     <string name="title_activity_signup_actvity">SignupActvity</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_user_hou_search">UserHouSearchActivity</string>
+    <string name="title_activity_why_us">WhyUs</string>
     <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -229,7 +230,7 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/res/values/styles.xml -->
     <eat-comment/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
     </style>
     <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
@@ -1159,6 +1160,15 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColorHint">#888</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="MyTextView">
+    </style>
     <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
@@ -1381,6 +1391,18 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>

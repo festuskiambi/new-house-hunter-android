@@ -15,7 +15,7 @@ public class UserHouSearchActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_hou_search);
-        submit=(Button)findViewById(R.id.button);
+        submit=(Button)findViewById(R.id.submit);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
