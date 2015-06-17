@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/building1"
+    tools:context="com.parse.starter.UserHouSearchActivity">
+    <LinearLayout
+        android:id="@+id/register_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/registration_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/registration_main"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dip"
+                    android:layout_marginRight="40dip"
+                    android:layout_marginTop="30dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/registration_Title"
+                        android:layout_width="fill_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Home Search"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/registration_ev_password"
+                        style="@style/EditTextStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dip"
+                        android:maxLength="15"
+                        android:background="@drawable/input"
+                        android:hint="Location eg.Kilimani"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true" />
+
+                    <EditText
+                        android:id="@+id/registration_ev_confirmPassword"
+                        style="@style/EditTextStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dip"
+                        android:maxLength="20"
+                        android:background="@drawable/input"
+                        android:hint="Budget eg.20000"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true" />
+
+
+                    <EditText
+                        android:id="@+id/registration_ev_LastName"
+                        style="@style/EditTextStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dip"
+                        android:maxLength="50"
+                        android:background="@drawable/input"
+                        android:hint="Size eg. 2 bedrooms"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true" />
+                    <EditText
+                        android:id="@+id/registration_ev_ContactNumber"
+                        style="@style/EditTextStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dip"
+                        android:maxLength="15"
+                        android:background="@drawable/input"
+                        android:hint="Property type eg. Apartment"
+                        android:inputType="phone"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/registration_main"
+                    android:layout_marginLeft="40dip"
+                    android:layout_marginRight="40dip"
+                    android:layout_marginTop="20dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <Button
+                        android:id="@+id/registration_submit"
+                        android:layout_width="150dip"
+                        android:layout_height="50dip"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/mybutton"
+                        android:paddingBottom="5dip"
+                        android:text="Search"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
