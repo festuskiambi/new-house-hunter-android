@@ -94,7 +94,7 @@ public class BaseActivity extends ActionBarActivity implements MenuItem.OnMenuIt
 
     private void initToolbar() {
         Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        TextView mToolBarTextView = (TextView) findViewById(R.id.text_view_toolbar_title);
+        /*TextView mToolBarTextView = (TextView) findViewById(R.id.text_view_toolbar_title);*/
         setSupportActionBar(mToolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -106,7 +106,7 @@ public class BaseActivity extends ActionBarActivity implements MenuItem.OnMenuIt
                 onBackPressed();
             }
         });
-        mToolBarTextView.setText("HouseHunter");
+        /*mToolBarTextView.setText("HouseHunter");*/
     }
 
     protected void addFragment(Fragment fragment, boolean addToBackStack, int containerId) {

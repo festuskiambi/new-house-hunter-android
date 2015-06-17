@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:background="@drawable/building1"
     tools:context="com.parse.starter.UserHouSearchActivity">
+    <include layout="@layout/toolbar" />
     <LinearLayout
         android:id="@+id/register_main"
         android:layout_width="fill_parent"
@@ -48,7 +49,7 @@
                         android:maxLength="15"
                         android:background="@drawable/input"
                         android:hint="Location eg.Kilimani"
-                        android:inputType="textPassword"
+                        android:inputType="text"
                         android:paddingLeft="10dip"
                         android:singleLine="true" />
 
@@ -61,7 +62,7 @@
                         android:maxLength="20"
                         android:background="@drawable/input"
                         android:hint="Budget eg.20000"
-                        android:inputType="textPassword"
+                        android:inputType="text"
                         android:paddingLeft="10dip"
                         android:singleLine="true" />
 

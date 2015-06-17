@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -18,20 +19,22 @@ import android.widget.TextView;
 import com.yalantis.contextmenu.lib.ContextMenuDialogFragment;
 import com.yalantis.contextmenu.lib.MenuObject;
 import com.yalantis.contextmenu.lib.MenuParams;
+import com.yalantis.contextmenu.lib.interfaces.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class UserHouSearchActivity extends ActionBarActivity implements MenuItem.OnMenuItemClickListener,View.OnLongClickListener {
+public class UserHouSearchActivity extends ActionBarActivity implements OnItemClickListener {
     private FragmentManager fragmentManager;
     private DialogFragment mMenuDialogFragment;
     Button submit;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_hou_search);
-        submit=(Button)findViewById(R.id.submit);
+        submit = (Button) findViewById(R.id.submit);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -109,8 +112,10 @@ public class UserHouSearchActivity extends ActionBarActivity implements MenuItem
         TextView mToolBarTextView = (TextView) findViewById(R.id.text_view_toolbar_title);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
         mToolbar.setNavigationIcon(R.drawable.backarrow);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -120,6 +125,13 @@ public class UserHouSearchActivity extends ActionBarActivity implements MenuItem
         });
         mToolBarTextView.setText("HouseHunter");
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+
+    }
+
 
     protected void addFragment(Fragment fragment, boolean addToBackStack, int containerId) {
         invalidateOptionsMenu();
@@ -134,10 +146,12 @@ public class UserHouSearchActivity extends ActionBarActivity implements MenuItem
             transaction.commit();
         }
     }
+
+
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+    public boolean onCreateOptionsMenu(final Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -153,12 +167,9 @@ public class UserHouSearchActivity extends ActionBarActivity implements MenuItem
         return super.onOptionsItemSelected(item);
     }
 
-    public boolean onLongClick(View v) {
-        return false;
-    }
-
     @Override
-    public boolean onMenuItemClick(MenuItem item) {
-        return false;
+    public void onClick(View view) {
+
     }
 }
+
