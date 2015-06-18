@@ -2045,7 +2045,6 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0b0006;
         public static final int radio=0x7f0b004e;
         public static final int rect=0x7f0b001e;
-        public static final int register_main=0x7f0b0086;
         public static final int registration_Title=0x7f0b0071;
         public static final int registration_ev_ContactNumber=0x7f0b0074;
         public static final int registration_ev_LastName=0x7f0b0075;
@@ -2093,6 +2092,7 @@ containing a value of this type.
         public static final int textView14=0x7f0b008d;
         public static final int textView15=0x7f0b0091;
         public static final int textView16=0x7f0b0092;
+        public static final int textView17=0x7f0b0086;
         public static final int textView2=0x7f0b009b;
         public static final int textView3=0x7f0b006d;
         public static final int textView4=0x7f0b006e;

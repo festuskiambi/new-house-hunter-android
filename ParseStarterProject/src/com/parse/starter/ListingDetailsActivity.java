@@ -48,7 +48,7 @@ public class ListingDetailsActivity extends ActionBarActivity implements OnItemC
         file_maps.put("Spacious living room",R.drawable.sitting);
         file_maps.put("Balcony",R.drawable.balcony);
         file_maps.put("Backyard", R.drawable.backyard1);
-        file_maps.put("Bathrooms",R.drawable.bathroom2);
+        file_maps.put("Bathroom",R.drawable.bathroom2);
         file_maps.put("Bedroom", R.drawable.bed2);
 
         for(String name : file_maps.keySet()) {
