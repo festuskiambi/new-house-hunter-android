@@ -44,12 +44,12 @@ public class ListingDetailsActivity extends ActionBarActivity implements OnItemC
         myslider = (SliderLayout)findViewById(R.id.slider);
 
         HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
-        file_maps.put("Bacon",R.drawable.prop1);
-        file_maps.put("More Bacon",R.drawable.sitting);
-        file_maps.put("My Favorite",R.drawable.bathroom);
-        file_maps.put("Best Of All", R.drawable.backyard1);
-        file_maps.put("My Favorite",R.drawable.bathroom2);
-        file_maps.put("Best Of All", R.drawable.bed2);
+        file_maps.put("Front view",R.drawable.img1);
+        file_maps.put("Spacious living room",R.drawable.sitting);
+        file_maps.put("Balcony",R.drawable.balcony);
+        file_maps.put("Backyard", R.drawable.backyard1);
+        file_maps.put("Bathrooms",R.drawable.bathroom2);
+        file_maps.put("Bedroom", R.drawable.bed2);
 
         for(String name : file_maps.keySet()) {
             TextSliderView textSliderView = new TextSliderView(this);

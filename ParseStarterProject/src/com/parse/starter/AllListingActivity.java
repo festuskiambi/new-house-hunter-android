@@ -141,11 +141,11 @@ public class AllListingActivity extends ActionBarActivity implements OnItemClick
 
     private void initializeData() {
         properties = new ArrayList<>();
-        properties.add(new Properties("Ksh 80 000", "3 bedroom Apartments / Flats to rent in Lavington Nairobi", R.drawable.img1));
-        properties.add(new Properties("kirichwa heights", "5 bedrooms", R.drawable.img2));
-        properties.add(new Properties("moringa heights", "4 bedrooms apartments", R.drawable.img3));
-        properties.add(new  Properties("lare properties", "bedsitters", R.drawable.img4));
-        properties.add(new Properties("wa mathu investments","3 bedrooms", R.drawable.img5));
+        properties.add(new Properties("Ksh 80 000", "3 bedroom Apartments / Flats to rent in Kilimani Nairobi", R.drawable.img1));
+        properties.add(new Properties("Ksh 100 000", "A spacious Apt 3bd master ensuite  to let in kilimani - Yaya area", R.drawable.img2));
+        properties.add(new Properties("Ksh 90000", "3 bedroom Townhouses to rent in Kilimani Nairobi", R.drawable.img3));
+        properties.add(new  Properties("Ksh 60 000", "2 bedroom Apartments / Flats to rent in Kilimani Kirichwa Road", R.drawable.img4));
+        properties.add(new Properties("Ksh 70 000","3 bedroom Apartments / Flats to rent in Kilimani Kindaruma Road, Kilimani, Nairobi", R.drawable.img5));
 
     }
     public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> {
