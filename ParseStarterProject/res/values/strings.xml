@@ -18,7 +18,16 @@
     <string name="title_activity_listing_details">ListingDetailsActivity</string>
 
 <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valey">
+on the  5th floor of the
+building. Has lifts,
+living room with dining area,
+spacious balcony,
+2 ensuite bedrooms,
+visitors cloakroom shared with the 3rd bedroom,
+back up power for common areas
+Gym
+</string>
     <string name="title_activity_why_us">WhyUs</string>
     <string name="title_activity_base">BaseActivity</string>
 </resources>

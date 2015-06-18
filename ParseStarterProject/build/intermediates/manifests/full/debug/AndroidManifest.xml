@@ -39,10 +39,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.parse.starter.MainActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
             android:name="com.parse.starter.SplashActivity"
             android:label="@string/title_activity_splash" >
             <intent-filter>
@@ -85,11 +81,6 @@
         <activity
             android:name="com.parse.starter.WhyUs"
             android:label="@string/title_activity_why_us" >
-        </activity>
-        <activity
-            android:name="com.parse.starter.BaseActivity"
-            android:label="@string/title_activity_base"
-            android:theme="@style/AppTheme" >
         </activity>
         <activity
             android:name="android.support.v7.widget.TestActivity"

@@ -29,9 +29,9 @@ public class ParseApplication extends Application {
     ParseACL defaultACL = new ParseACL();
     // Optionally enable public read access.
     // defaultACL.setPublicReadAccess(true);
-    ParseACL.setDefaultACL(defaultACL, true);
+    /*ParseACL.setDefaultACL(defaultACL, true);
     ParseObject testObject = new ParseObject("TestObject");
     testObject.put("foo", "bar");
-    testObject.saveInBackground();
+    testObject.saveInBackground();*/
   }
 }

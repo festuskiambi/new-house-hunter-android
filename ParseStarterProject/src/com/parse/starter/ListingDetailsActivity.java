@@ -1,6 +1,7 @@
 package com.parse.starter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
@@ -28,7 +29,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-public class ListingDetailsActivity extends ActionBarActivity implements OnItemClickListener {
+public class ListingDetailsActivity extends ActionBarActivity implements OnItemClickListener,BaseSliderView.OnSliderClickListener {
     private FragmentManager fragmentManager;
     private DialogFragment mMenuDialogFragment;
     private SliderLayout myslider;
@@ -57,12 +58,12 @@ public class ListingDetailsActivity extends ActionBarActivity implements OnItemC
                     .description(name)
                     .image(file_maps.get(name))
                     .setScaleType(BaseSliderView.ScaleType.Fit)
-                    .setOnSliderClickListener((BaseSliderView.OnSliderClickListener) this);
+                    .setOnSliderClickListener( this);
 
-            //add your extra information
+           /* //add your extra information
             textSliderView.getBundle()
                     .putString("extra", name);
-
+*/
             myslider.addSlider(textSliderView);
         }
         myslider.setPresetTransformer(SliderLayout.Transformer.Accordion);
@@ -104,7 +105,8 @@ public class ListingDetailsActivity extends ActionBarActivity implements OnItemC
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                Intent i = new Intent(ListingDetailsActivity.this, AllListingActivity.class);
+                startActivity(i);
             }
         });
         mToolBarTextView.setText("HouseHunter");
@@ -154,6 +156,11 @@ public class ListingDetailsActivity extends ActionBarActivity implements OnItemC
 
     @Override
     public void onClick(View view) {
+
+    }
+
+    @Override
+    public void onSliderClick(BaseSliderView baseSliderView) {
 
     }
 }

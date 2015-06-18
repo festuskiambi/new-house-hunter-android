@@ -1,6 +1,7 @@
 package com.parse.starter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -16,9 +17,9 @@ import java.util.List;
 /**
  * Created by festus on 5/24/15.
  */
-public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> {
+public class RVAdapter/* extends RecyclerView.Adapter<RVAdapter.PersonViewHolder>*/ {
 
-    /*List<Storyitems> stories;*/
+    /*List<Storyitems> stories;*//*
     List<Properties> properties;
 
     public class PersonViewHolder extends RecyclerView.ViewHolder {
@@ -39,10 +40,10 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
     }
 
 
-    /*RVAdapter(List<Storyitems> stories) {
+    *//*RVAdapter(List<Storyitems> stories) {
         this.stories = stories;
 
-    }*/
+    }*//*
     RVAdapter(List<Properties> properties) {
         this.properties = properties;
 
@@ -65,9 +66,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
     @Override
     public void onBindViewHolder(RVAdapter.PersonViewHolder holder, int i) {
 
-            /*holder.textView.setText(stories.get(i).title);
+            *//*holder.textView.setText(stories.get(i).title);
             holder.textView2.setText(stories.get(i).introduction);
-            holder.imageView.setImageResource(stories.get(i).imageId);*/
+            holder.imageView.setImageResource(stories.get(i).imageId);*//*
         holder.textView.setText(properties.get(i).size);
         holder.textView2.setText(properties.get(i).location);
         holder.imageView.setImageResource(properties.get(i).imageId);
@@ -78,7 +79,11 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
             @Override
             public void onClick(final View v) {
 
-                Toast.makeText(context, "you selected cardview at index:" + name, Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(context, ListingDetailsActivity.class);
+                startActivity(i);
+
+                // close this activity
+                finish();
 
             }
         });
@@ -88,7 +93,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
     @Override
     public int getItemCount() {
         return properties.size();
-    }
+    }*/
 }
 /*
 public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder>  {

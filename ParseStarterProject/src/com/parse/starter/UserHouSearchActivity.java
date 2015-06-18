@@ -120,7 +120,9 @@ public class UserHouSearchActivity extends ActionBarActivity implements OnItemCl
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                Intent i = new Intent(UserHouSearchActivity.this, AppInfoActivity.class);
+                startActivity(i);
+                finish();
             }
         });
         mToolBarTextView.setText("HouseHunter");

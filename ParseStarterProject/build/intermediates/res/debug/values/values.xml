@@ -174,8 +174,8 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
     <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
@@ -249,7 +249,6 @@
     <string name="app_name">ParseStarterProject</string>
     <string name="context_menu">context_menu</string>
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="parse_app_id">YOUR_APPLICATION_ID</string>
     <string name="parse_client_key">YOUR_CLIENT_KEY</string>
@@ -263,6 +262,16 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_user_hou_search">UserHouSearchActivity</string>
     <string name="title_activity_why_us">WhyUs</string>
+    <string name="valey">
+on the  5th floor of the
+building. Has lifts,
+living room with dining area,
+spacious balcony,
+2 ensuite bedrooms,
+visitors cloakroom shared with the 3rd bedroom,
+back up power for common areas
+Gym
+</string>
     <!-- From: file:/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

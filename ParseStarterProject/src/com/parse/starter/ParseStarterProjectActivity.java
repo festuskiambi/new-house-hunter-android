@@ -9,18 +9,16 @@ import com.parse.ParseObject;
 
 public class ParseStarterProjectActivity extends ActionBarActivity {
 	/** Called when the activity is first created. */
-	BlankFragment fragment;
+
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-		fragment = new BlankFragment();
 
 		if (savedInstanceState ==null) {
 
 		}
-		ParseAnalytics.trackAppOpenedInBackground(getIntent());
+		/*ParseAnalytics.trackAppOpenedInBackground(getIntent());
 		ParseObject testObject = new ParseObject("TestObject");
 		testObject.put("foo", "bar");
-		testObject.saveInBackground();
+		testObject.saveInBackground();*/
 	}
 }

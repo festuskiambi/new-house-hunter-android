@@ -39,10 +39,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
             android:name=".SplashActivity"
             android:label="@string/title_activity_splash" >
             <intent-filter>
@@ -85,11 +81,6 @@
         <activity
             android:name=".WhyUs"
             android:label="@string/title_activity_why_us" >
-        </activity>
-        <activity
-            android:name=".BaseActivity"
-            android:theme="@style/AppTheme"
-            android:label="@string/title_activity_base" >
         </activity>
     </application>
 
