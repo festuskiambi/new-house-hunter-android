@@ -21,17 +21,26 @@ public class AppInfoActivity extends Activity {
         signup = (Button)findViewById(R.id.signup);
         login = (Button)findViewById(R.id.login);
         signuplater = (Button)findViewById(R.id.sugnuplater);
-        /*why = (Button)findViewById(R.id.why);
-        why.setOnClickListener(new View.OnClickListener() {
+        signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(AppInfoActivity.this, WhyUs.class);
+                Intent i = new Intent(AppInfoActivity.this, SignupActvity.class);
                 startActivity(i);
 
                 // close this activity
                 finish();
             }
-        });*/
+        });
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(AppInfoActivity.this, LoginActivity.class);
+                startActivity(i);
+
+                // close this activity
+                finish();
+            }
+        });
         signuplater.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
