@@ -21,7 +21,7 @@ public class AppInfoActivity extends Activity {
         signup = (Button)findViewById(R.id.signup);
         login = (Button)findViewById(R.id.login);
         signuplater = (Button)findViewById(R.id.sugnuplater);
-        signup.setOnClickListener(new View.OnClickListener() {
+        /*signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(AppInfoActivity.this, SignupActvity.class);
@@ -40,7 +40,7 @@ public class AppInfoActivity extends Activity {
                 // close this activity
                 finish();
             }
-        });
+        });*/
         signuplater.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

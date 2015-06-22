@@ -34,7 +34,7 @@ public class LoginActivity extends ActionBarActivity implements OnItemClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         login=(Button)findViewById(R.id.submit1);
-        signup = (Button)findViewById(R.id.signup);
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
