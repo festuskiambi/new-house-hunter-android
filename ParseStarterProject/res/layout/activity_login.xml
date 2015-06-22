@@ -5,10 +5,6 @@
     tools:context="com.parse.starter.UserHouSearchActivity">
     <include layout="@layout/toolbar"
         />
-
-    <include layout="@layout/toolbar" />
-
-
     <LinearLayout
         android:id="@+id/registration_ly"
         android:layout_width="fill_parent"
@@ -18,9 +14,7 @@
 
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+
             <LinearLayout
                 android:id="@+id/registration_main"
                 android:layout_width="fill_parent"
@@ -91,7 +85,7 @@
                     />
 
             </LinearLayout>
-        </ScrollView>
+
     </LinearLayout>
 
 

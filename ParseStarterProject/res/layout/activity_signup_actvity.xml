@@ -21,6 +21,9 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
         <LinearLayout
             android:id="@+id/registration_main"
             android:layout_width="fill_parent"
@@ -140,6 +143,7 @@
                 />
 
         </LinearLayout>
+            </RelativeLayout>
         </ScrollView>
     </LinearLayout>
 
