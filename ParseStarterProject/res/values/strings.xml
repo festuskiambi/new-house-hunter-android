@@ -17,6 +17,15 @@
     <string name="title_activity_all_listing">AllListingActivity</string>
     <string name="title_activity_listing_details">ListingDetailsActivity</string>
 
+    <!--strings for signup and login-->
+    <string name="error_intro">"Please "</string>
+    <string name="error_blank_username">enter your email addresse</string>
+    <string name="error_blank_firstname">enter your firstname</string>
+    <string name="error_blank_secondname">enter your secondname</string>
+    <string name="error_blank_password">enter a password</string>
+    <string name="error_mismatched_passwords">enter the same password twice</string>
+    <string name="error_join">", and "</string>
+    <string name="error_end">.</string>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="valey">
 on the  5th floor of the

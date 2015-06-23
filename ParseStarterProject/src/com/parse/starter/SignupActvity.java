@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.yalantis.contextmenu.lib.ContextMenuDialogFragment;
 import com.yalantis.contextmenu.lib.MenuObject;
@@ -60,11 +61,49 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
     }
 
 public void signUp(){
-    String fistName = fname.getText().toString().trim();
+    String firstName = fname.getText().toString().trim();
     String secondName = sname.getText().toString().trim();
     String username= email.getText().toString().trim();
     String passWord = password.getText().toString().trim();
     String confirmpassword = confirmPassword.getText().toString().trim();
+
+    // Validating the sign up data
+    boolean validationError = false;
+    StringBuilder validationErrorMessage = new StringBuilder(getString(R.string.error_intro));
+    if (firstName.length() == 0) {
+        validationError = true;
+        validationErrorMessage.append(getString(R.string.error_blank_firstname));
+    }
+    if (secondName.length() == 0) {
+        validationError = true;
+        validationErrorMessage.append(getString(R.string.error_blank_secondname));
+    }
+    if (username.length() == 0) {
+        validationError = true;
+        validationErrorMessage.append(getString(R.string.error_blank_username));
+    }
+    if (passWord.length() == 0) {
+        if (validationError) {
+            validationErrorMessage.append(getString(R.string.error_join));
+        }
+        validationError = true;
+        validationErrorMessage.append(getString(R.string.error_blank_password));
+    }
+    if (!password.equals(confirmPassword)) {
+        if (validationError) {
+            validationErrorMessage.append(getString(R.string.error_join));
+        }
+        validationError = true;
+        validationErrorMessage.append(getString(R.string.error_mismatched_passwords));
+    }
+    validationErrorMessage.append(getString(R.string.error_end));
+    // If there is a validation error, display the error
+    if (validationError) {
+        Toast.makeText(SignupActvity.this, validationErrorMessage.toString(), Toast.LENGTH_LONG)
+                .show();
+        return;
+    }
+
 }
 
     private void initMenuFragment() {
