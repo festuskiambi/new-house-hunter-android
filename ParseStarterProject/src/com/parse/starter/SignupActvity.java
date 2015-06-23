@@ -17,7 +17,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.KeyEvent;
+import android.view.inputmethod.EditorInfo;
 
+import com.parse.ParseException;
+import com.parse.ParseUser;
+import com.parse.SignUpCallback;
 import com.yalantis.contextmenu.lib.ContextMenuDialogFragment;
 import com.yalantis.contextmenu.lib.MenuObject;
 import com.yalantis.contextmenu.lib.MenuParams;
@@ -31,8 +36,7 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
     private FragmentManager fragmentManager;
     private DialogFragment mMenuDialogFragment;
     private Button register;
-    private EditText fname;
-    private EditText sname;
+    private EditText username;
     private EditText email;
     private EditText password;
     private EditText confirmPassword;
@@ -42,8 +46,7 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_actvity);
         register = (Button) findViewById(R.id.submit1);
-        fname =(EditText)findViewById(R.id.fname);
-        sname = (EditText)findViewById(R.id.sname);
+        username = (EditText)findViewById(R.id.username);
         email = (EditText) findViewById(R.id.email);
         password = (EditText) findViewById(R.id.password);
         confirmPassword=(EditText) findViewById(R.id.confirmpassword);
@@ -62,26 +65,23 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
     }
 
 public void signUp(){
-    String firstName = fname.getText().toString().trim();
-    String secondName = sname.getText().toString().trim();
-    String username= email.getText().toString().trim();
+
+    String userName = username.getText().toString().trim();
+    String emailAddress= email.getText().toString().trim();
     String passWord = password.getText().toString().trim();
     String confirmpassword = confirmPassword.getText().toString().trim();
 
     // Validating the sign up data
     boolean validationError = false;
     StringBuilder validationErrorMessage = new StringBuilder(getString(R.string.error_intro));
-    if (firstName.length() == 0) {
+    if (userName.length() == 0) {
         validationError = true;
-        validationErrorMessage.append(getString(R.string.error_blank_firstname));
+        validationErrorMessage.append(getString(R.string.error_blank_userName));
     }
-    if (secondName.length() == 0) {
+
+    if (emailAddress.length() == 0) {
         validationError = true;
-        validationErrorMessage.append(getString(R.string.error_blank_secondname));
-    }
-    if (username.length() == 0) {
-        validationError = true;
-        validationErrorMessage.append(getString(R.string.error_blank_username));
+        validationErrorMessage.append(getString(R.string.error_blank_email));
     }
     if (passWord.length() == 0) {
         if (validationError) {
@@ -90,7 +90,7 @@ public void signUp(){
         validationError = true;
         validationErrorMessage.append(getString(R.string.error_blank_password));
     }
-    if (!password.equals(confirmPassword)) {
+    if (!passWord.equals(confirmpassword)) {
         if (validationError) {
             validationErrorMessage.append(getString(R.string.error_join));
         }
@@ -109,7 +109,36 @@ public void signUp(){
     dialog.setMessage(getString(R.string.progress_signup));
     dialog.show();
 
+    // Set up a new Parse user
+    ParseUser user = new ParseUser();
+    user.setUsername(userName);
+    user.setEmail(emailAddress);
+    user.setPassword(passWord);
+
+
+    // Call the Parse signup method
+    user.signUpInBackground(new SignUpCallback()  {
+        @Override
+        public void done(ParseException e) {
+
+            if (e == null) {
+                // Start an intent for the dispatch activity
+                Intent inten = new Intent(SignupActvity.this, LoginActivity.class);
+                /*inten.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);*/
+                startActivity(inten);
+                finish();
+
+            }
+            else {
+                // Show the error message
+                Toast.makeText(SignupActvity.this, e.getMessage(), Toast.LENGTH_LONG).show();
+
+            }
+        }
+    });
 }
+
+
 
     private void initMenuFragment() {
         MenuParams menuParams = new MenuParams();

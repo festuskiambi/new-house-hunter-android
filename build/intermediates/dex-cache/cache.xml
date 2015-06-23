@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="22886d910315028a2b34b1ba068c265534ade87a">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-b833bc27b3e166221a278ac630055b775ed32a73.jar" />
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-955862d9fbef8d80d442fd29ac2c4739df7a128e.jar" />
+    </item>
+    <item
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.yalantis/contextmenu/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4812670dcffa70f6e3b2dc5f191837a2db7d4cd9">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-71f7215148e354c49492294bf6ae69ef738b5720.jar" />
     </item>
     <item
         jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
@@ -16,32 +23,11 @@
         <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-d0fa34205c35aad8b0d81db7a56f5a2f57211fac.jar" />
     </item>
     <item
-        jar="/home/festus/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.daimajia.slider/library/1.1.5/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/picasso-2.3.2-52ab1bf0e5dec6d3484bcdd5a9f691bca48c7bfd.jar" />
-    </item>
-    <item
-        jar="/home/festus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-7f433c0ef83f5598cfbbfc0d46edf7758c2fcaaa.jar" />
-    </item>
-    <item
-        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-955862d9fbef8d80d442fd29ac2c4739df7a128e.jar" />
-    </item>
-    <item
-        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/libs/Parse-1.9.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fe739334780fe321141e62720822c2d456061899">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.2-3fb44f11a94a59025f89c6cc928bfc3740b42269.jar" />
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-e548118217fbd7bdeb48d6263cb04b4ed6d2cefc.jar" />
     </item>
     <item
         jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/libs/ParseCrashReporting-1.9.2.jar"
@@ -58,9 +44,51 @@
         <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.2-60133118bc77ed2775e7935f376cb208170aad07.jar" />
     </item>
     <item
+        jar="/home/festus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-7f433c0ef83f5598cfbbfc0d46edf7758c2fcaaa.jar" />
+    </item>
+    <item
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-b833bc27b3e166221a278ac630055b775ed32a73.jar" />
+    </item>
+    <item
         jar="/home/festus/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-d2633762f95f5ea2be010079f1cb9d90af67f355.jar" />
+    </item>
+    <item
+        jar="/home/festus/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/picasso-2.3.2-52ab1bf0e5dec6d3484bcdd5a9f691bca48c7bfd.jar" />
+    </item>
+    <item
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-44407c04beda0021717148bbb3d26f063c1cc571.jar" />
+    </item>
+    <item
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/libs/Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.2-3fb44f11a94a59025f89c6cc928bfc3740b42269.jar" />
+    </item>
+    <item
+        jar="/home/festus/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
         <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-d2633762f95f5ea2be010079f1cb9d90af67f355.jar" />
     </item>
@@ -72,34 +100,6 @@
         <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-6239f44f743e9d5acf5914897478bbf2034cc04e.jar" />
     </item>
     <item
-        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-44407c04beda0021717148bbb3d26f063c1cc571.jar" />
-    </item>
-    <item
-        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.yalantis/contextmenu/1.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4812670dcffa70f6e3b2dc5f191837a2db7d4cd9">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-71f7215148e354c49492294bf6ae69ef738b5720.jar" />
-    </item>
-    <item
-        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/exploded-aar/com.daimajia.slider/library/1.1.5/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-e548118217fbd7bdeb48d6263cb04b4ed6d2cefc.jar" />
-    </item>
-    <item
-        jar="/home/festus/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-d2633762f95f5ea2be010079f1cb9d90af67f355.jar" />
-    </item>
-    <item
         jar="/home/festus/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -107,18 +107,18 @@
         <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/library-2.4.0-b65c2e41d2d8653763f1ae2af06ed9d9b085e2b4.jar" />
     </item>
     <item
-        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/libs/Parse-1.9.2.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="fe739334780fe321141e62720822c2d456061899">
-        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.2-3fb44f11a94a59025f89c6cc928bfc3740b42269.jar" />
-    </item>
-    <item
         jar="/home/festus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
         <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-7f433c0ef83f5598cfbbfc0d46edf7758c2fcaaa.jar" />
+    </item>
+    <item
+        jar="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/libs/Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="/home/festus/AndroidStudioProjects/Mynewhome/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.2-3fb44f11a94a59025f89c6cc928bfc3740b42269.jar" />
     </item>
 
 </items>

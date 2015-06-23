@@ -44,30 +44,19 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/fname"
+                android:id="@+id/username"
                 style="@style/EditTextStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dip"
                 android:maxLength="15"
                 android:background="@drawable/input"
-                android:hint="Firstname eg.John"
+                android:hint="username"
                 android:inputType="text"
                 android:paddingLeft="10dip"
                 android:singleLine="true" />
 
-            <EditText
-                android:id="@+id/sname"
-                style="@style/EditTextStyle"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dip"
-                android:maxLength="20"
-                android:background="@drawable/input"
-                android:hint="Secondname eg.Mark"
-                android:inputType="text"
-                android:paddingLeft="10dip"
-                android:singleLine="true" />
+
 
 
             <EditText
