@@ -60,7 +60,11 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
     }
 
 public void signUp(){
-
+    String fistName = fname.getText().toString().trim();
+    String secondName = sname.getText().toString().trim();
+    String username= email.getText().toString().trim();
+    String passWord = password.getText().toString().trim();
+    String confirmpassword = confirmPassword.getText().toString().trim();
 }
 
     private void initMenuFragment() {
