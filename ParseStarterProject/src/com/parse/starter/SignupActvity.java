@@ -1,6 +1,7 @@
 package com.parse.starter;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -103,6 +104,10 @@ public void signUp(){
                 .show();
         return;
     }
+// Set up a progress dialog to show signup progress
+    final ProgressDialog dialog = new ProgressDialog(SignupActvity.this);
+    dialog.setMessage(getString(R.string.progress_signup));
+    dialog.show();
 
 }
 
