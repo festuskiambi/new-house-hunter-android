@@ -13,6 +13,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.yalantis.contextmenu.lib.ContextMenuDialogFragment;
@@ -27,7 +28,13 @@ import java.util.List;
 public class SignupActvity  extends ActionBarActivity implements OnItemClickListener {
     private FragmentManager fragmentManager;
     private DialogFragment mMenuDialogFragment;
-    Button register;
+    private Button register;
+    private EditText fname;
+    private EditText sname;
+    private EditText phone;
+    private EditText email;
+    private EditText password;
+    private EditText confirmPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

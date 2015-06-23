@@ -44,7 +44,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/registration_ev_password"
+                android:id="@+id/fname"
                 style="@style/EditTextStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
                 android:singleLine="true" />
 
             <EditText
-                android:id="@+id/registration_ev_confirmPassword"
+                android:id="@+id/sname"
                 style="@style/EditTextStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
 
 
             <EditText
-                android:id="@+id/registration_ev_LastName"
+                android:id="@+id/email"
                 style="@style/EditTextStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
                 android:paddingLeft="10dip"
                 android:singleLine="true" />
             <EditText
-                android:id="@+id/registration_ev_ContactNumber"
+                android:id="@+id/pnone"
                 style="@style/EditTextStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -101,14 +101,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dip"
                 android:maxLength="15"
-                android:id="@+id/pas"
+                android:id="@+id/password"
                 android:background="@drawable/input"
                 android:hint="password"
                 android:inputType="textPassword"
                 android:paddingLeft="10dip"
                 android:singleLine="true" />
             <EditText
-                android:id="@+id/confirm"
+                android:id="@+id/confirmpassword"
                 style="@style/EditTextStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
