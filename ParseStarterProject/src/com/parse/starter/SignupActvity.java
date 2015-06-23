@@ -31,7 +31,6 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
     private Button register;
     private EditText fname;
     private EditText sname;
-    private EditText phone;
     private EditText email;
     private EditText password;
     private EditText confirmPassword;
@@ -44,24 +43,25 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
         fname =(EditText)findViewById(R.id.fname);
         sname = (EditText)findViewById(R.id.sname);
         email = (EditText) findViewById(R.id.email);
-        phone = (EditText)findViewById(R.id.phone);
         password = (EditText) findViewById(R.id.password);
         confirmPassword=(EditText) findViewById(R.id.confirmpassword);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+          signUp();
 
-                Intent i = new Intent(SignupActvity.this, UserHouSearchActivity.class);
-                startActivity(i);
-
-                // close this activity
-                finish();
             }
+
+
         });
         initToolbar();
         initMenuFragment();
         fragmentManager = getSupportFragmentManager();
     }
+
+public void signUp(){
+
+}
 
     private void initMenuFragment() {
         MenuParams menuParams = new MenuParams();

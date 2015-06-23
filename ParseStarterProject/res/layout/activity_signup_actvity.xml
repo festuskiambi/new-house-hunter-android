@@ -82,18 +82,7 @@
                 android:hint="Email eg.example@gmail.com"
                 android:paddingLeft="10dip"
                 android:singleLine="true" />
-            <EditText
-                android:id="@+id/phone"
-                style="@style/EditTextStyle"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dip"
-                android:maxLength="15"
-                android:background="@drawable/input"
-                android:hint="Phone number eg. 0700 000 000"
-                android:inputType="phone"
-                android:paddingLeft="10dip"
-                android:singleLine="true" />
+
             <EditText
 
                 style="@style/EditTextStyle"
