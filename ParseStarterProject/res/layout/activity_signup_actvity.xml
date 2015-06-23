@@ -83,7 +83,7 @@
                 android:paddingLeft="10dip"
                 android:singleLine="true" />
             <EditText
-                android:id="@+id/pnone"
+                android:id="@+id/phone"
                 style="@style/EditTextStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

@@ -41,9 +41,16 @@ public class SignupActvity  extends ActionBarActivity implements OnItemClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_actvity);
         register = (Button) findViewById(R.id.submit1);
+        fname =(EditText)findViewById(R.id.fname);
+        sname = (EditText)findViewById(R.id.sname);
+        email = (EditText) findViewById(R.id.email);
+        phone = (EditText)findViewById(R.id.phone);
+        password = (EditText) findViewById(R.id.password);
+        confirmPassword=(EditText) findViewById(R.id.confirmpassword);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent i = new Intent(SignupActvity.this, UserHouSearchActivity.class);
                 startActivity(i);
 
